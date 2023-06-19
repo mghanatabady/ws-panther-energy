@@ -1,7 +1,7 @@
 {
   "name": "industry",
-  "version": "0.1.0",
-  "homepage": "https://panther-energy.web.app/",
+  "version": "0.1.1",
+  "homepage": "https://panther-energy.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",

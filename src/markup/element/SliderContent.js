@@ -467,12 +467,12 @@ export const homeSliderContent2 = [
     {
         image: require("../../images/main-slider/slide4.jpg"),
         title:"INDUSTRIAL EQUIPMENT SUPPLIER",
-        //description:"Industry is ready to help you in making unique-looking and best website in a moment."
+        description:"Years of working within Energy industry has given us the skills to supply key projects.",
     },
     {
         image: require("../../images/main-slider/slide5.jpg"),
         title:"OIL INDUSTRY",
-        //description:"Industry is ready to help you in making unique-looking and best website in a moment."
+        description:""
     }
 ]
 

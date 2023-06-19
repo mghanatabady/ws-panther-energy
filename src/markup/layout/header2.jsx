@@ -85,12 +85,12 @@ class Header2 extends Component {
                                         <i className="la la-clock-o"></i>
                                         <h4 className="title">08:00 AM - 06:00 PM</h4>
                                         <span>Monday - Friday</span>
-                                    </li>
+                                    </li>*/}
                                     <li>
                                         <i className="la la-map"></i>
-                                        <h4 className="title">183 Donato Parkways</h4>
-                                        <span>CA, United State</span>
-                                    </li> */}
+                                        <h4 className="title">Golan St.,</h4>
+                                        <span>In Front of Cihan Bank</span>
+                                    </li> 
                                 </ul>
                             </div>
                         </div>

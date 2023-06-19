@@ -20,7 +20,7 @@ const Footer2 =()=> {
 	return (
 		<>
 			<footer className="site-footer style2">
-				<div className="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+				{/* <div className="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
@@ -72,9 +72,9 @@ const Footer2 =()=> {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				
-				<div className="footer-top">
+				{/* <div className="footer-top">
 					<div className="container-fluid">
 						<div className="row">
 							<div className="col-lg-4 col-md-12 col-sm-12">
@@ -186,7 +186,7 @@ const Footer2 =()=> {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</footer>                
 		</>
 	)
