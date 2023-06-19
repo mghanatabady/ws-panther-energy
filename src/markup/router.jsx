@@ -84,11 +84,11 @@ class Router extends Component {
         return (
             
 			//<BrowserRouter>
-			<BrowserRouter basename={'react/demo'}>
+			<BrowserRouter basename={''}>
                 <div className="page-wraper">
                     <Switch>
-                        <Route path='/' exact component={Index} />
-                        <Route path='/about-1' component={About1} />
+                        <Route path='/' exact component={Index2} />
+                        {/* <Route path='/about-1' component={About1} />
                         <Route path='/about-2' component={About2} />
                         <Route path='/blog-grid-2-sidebar' component={BlogGrid2Sidebar} />
                         <Route path='/blog-grid-3' component={BlogGrid3} />
@@ -165,7 +165,7 @@ class Router extends Component {
                         <Route path='/shortcode-testimonials' component={shortTestimonials} />
                         <Route path='/shortcode-images-effects' component={shortImagesEffects} />
                         <Route path='/shortcode-shop-widgets' component={shopWidgets} />
-                        <Route path='/shortcode-team' component={shortTeam} />
+                        <Route path='/shortcode-team' component={shortTeam} /> */}
 
                     </Switch>
                 </div>
