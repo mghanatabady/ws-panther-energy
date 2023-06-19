@@ -466,13 +466,13 @@ export const servicesContent4 = [
 export const homeSliderContent2 = [
     {
         image: require("../../images/main-slider/slide4.jpg"),
-        title:"GAS INDUSTRY",
-        description:"Industry is ready to help you in making unique-looking and best website in a moment."
+        title:"INDUSTRIAL EQUIPMENT SUPPLIER",
+        //description:"Industry is ready to help you in making unique-looking and best website in a moment."
     },
     {
         image: require("../../images/main-slider/slide5.jpg"),
         title:"OIL INDUSTRY",
-        description:"Industry is ready to help you in making unique-looking and best website in a moment."
+        //description:"Industry is ready to help you in making unique-looking and best website in a moment."
     }
 ]
 
