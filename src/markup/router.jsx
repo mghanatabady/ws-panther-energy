@@ -88,6 +88,8 @@ class Router extends Component {
                 <div className="page-wraper">
                     <Switch>
                         <Route path='/' exact component={Index2} />
+                        {/* <Route path='/about' component={About1} /> */}
+                        {/* <Route path='/contact-1' component={Contact1} /> */}
                         {/* <Route path='/about-1' component={About1} />
                         <Route path='/about-2' component={About2} />
                         <Route path='/blog-grid-2-sidebar' component={BlogGrid2Sidebar} />

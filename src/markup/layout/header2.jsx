@@ -10,36 +10,36 @@ class Header2 extends Component {
 
         // sidebar open/close
 
-        var btn = document.querySelector('.navicon');
-        var nav = document.querySelector('.header-nav');
+        // var btn = document.querySelector('.navicon');
+        // var nav = document.querySelector('.header-nav');
        
-        function toggleFunc() {
-            btn.classList.toggle("open");
-            nav.classList.toggle("show");
-        }
+        // function toggleFunc() {
+        //     btn.classList.toggle("open");
+        //     nav.classList.toggle("show");
+        // }
 
-        btn.addEventListener('click', toggleFunc);
+        // btn.addEventListener('click', toggleFunc);
 
 
-        // Sidenav li open close
-        var navUl = [].slice.call(document.querySelectorAll('.header-nav > ul > li'));
-        for (var y = 0; y < navUl.length; y++) {
-            navUl[y].addEventListener('click', function () { checkLi(this) });
-        }
+        // // Sidenav li open close
+        // var navUl = [].slice.call(document.querySelectorAll('.header-nav > ul > li'));
+        // for (var y = 0; y < navUl.length; y++) {
+        //     navUl[y].addEventListener('click', function () { checkLi(this) });
+        // }
 
-        function checkLi(current) {
-            const active = current.classList.contains("open")
-            navUl.forEach(el => el.classList.remove('open'));
-            //current.classList.add('open');
+        // function checkLi(current) {
+        //     const active = current.classList.contains("open")
+        //     navUl.forEach(el => el.classList.remove('open'));
+        //     //current.classList.add('open');
            
-            if(active){
-                current.classList.remove('open') 
-                //console.log("active")
-            } else{
-                current.classList.add('open');
-                //console.log("close")
-            }
-        }
+        //     if(active){
+        //         current.classList.remove('open') 
+        //         //console.log("active")
+        //     } else{
+        //         current.classList.add('open');
+        //         //console.log("close")
+        //     }
+        // }
 
     }
     
@@ -47,12 +47,12 @@ class Header2 extends Component {
         return (
             <>
             <header className="site-header mo-left header ext-header navstyle1">
-                <div className="top-bar">
+                {/* <div className="top-bar">
                     <div className="container">
                         <div className="row d-flex justify-content-between align-items-center">
                             <div className="dlab-topbar-left">
                                 <ul>
-                                    <li><Link to="/about-1">About Us</Link></li>
+                                    <li><Link to="/about">About Us</Link></li>
                                     <li><Link to="/privacy-policy">Refund Policy</Link></li>
                                     <li><Link to="/help-desk">Help Desk</Link></li>
                                 </ul>
@@ -62,7 +62,7 @@ class Header2 extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="middle-bar bg-white">
                     <div className="container">
                         <div className="middle-area">
@@ -72,6 +72,11 @@ class Header2 extends Component {
                             <div className="service-list">
                                 <ul>
                                     <li>
+                                        <i className="la la-envelope"></i>
+                                        <h4 className="title">info@panther-energy.com</h4>
+                                        <span>Erbil,Iraq</span>
+                                    </li>
+                                    {/* <li>
                                         <i className="la la-phone"></i>
                                         <h4 className="title">(+00)888.666.88</h4>
                                         <span>Free Call</span>
@@ -85,7 +90,7 @@ class Header2 extends Component {
                                         <i className="la la-map"></i>
                                         <h4 className="title">183 Donato Parkways</h4>
                                         <span>CA, United State</span>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -93,7 +98,7 @@ class Header2 extends Component {
                     </div>
                 </div>	
                 
-                <Sticky innerZ={999} enabled={true}>
+                {/* <Sticky innerZ={999} enabled={true}>
                     <div className="sticky-header main-bar-wraper navbar-expand-lg">
                         <div className="main-bar clearfix ">
                             <div className="container clearfix">
@@ -294,7 +299,7 @@ class Header2 extends Component {
                             </div>
                         </div>
                     </div>
-                </Sticky>
+                </Sticky> */}
             </header>                
             </>
         )
