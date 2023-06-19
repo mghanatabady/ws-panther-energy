@@ -16,11 +16,11 @@ class Index2 extends Component {
             <div className="skin-2">
                 <Header/>
 
-                <HomeSlider 
+                {/* <HomeSlider 
                 data={homeSliderContent2}
                 contentWrapperCls="sliderStyle2"
                 btnText="Read More"
-                />
+                /> */}
 
                 <div className="page-content bg-white">
                     <div className="content-block">
