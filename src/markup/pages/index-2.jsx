@@ -5,6 +5,8 @@ import Footer from '../layout/footer2'
 import HomeSlider from '../element/homeslider1'
 import {homeSliderContent2} from '../element/SliderContent'
 import ScrollToTop from '../element/scrollToTop';
+import ServicesSlider1 from '../element/servicesSlider1';
+import {servicesContent4} from '../element/SliderContent'
 
 // import '../../css/skin/skin-2.css';
 
@@ -35,7 +37,7 @@ class Index2 extends Component {
                                 <div className="col-lg-4 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
                                     <div className="service-box style2">
                                         <div>
-                                            <h3 className="title text-black">
+                                            <h3 className="title text-black" id="about">
                                             About
                                             </h3>
                                             <p>
@@ -107,7 +109,33 @@ class Index2 extends Component {
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
+
+
+
+                <div className="page-content bg-white">
+                    <div className="content-block">
+                        <div className="section-full bg-gray content-inner about-carousel-ser">
+                            <div className="container">
+                                <div className="section-head text-center">
+                                    <h2 className="title">Integrated Industrial Solutions & <br/><span className="text-primary">Services</span></h2>
+                                    <p>Offering a broad range of industrial solutions, from Valve & Actuation to Electrical Equipment Automation and Water Treatment. Our expertise ensures high efficiency and performance across multiple sectors.</p>
+                                </div>
+
+                                <ServicesSlider1 
+                                slidesToShow={3}
+                                data={servicesContent4} />
+
+                            </div>	
+                        </div>
+                    </div>
+                </div> 
+
+
+
+
+
+
                 <Footer/>  
                 <ScrollToTop className="style1 radius"/>              
             </div>

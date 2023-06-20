@@ -42,27 +42,41 @@ class Header2 extends Component {
         // }
 
     }
+
+    scrollToElement = (id) => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
     
     render() {
         return (
             <>
             <header className="site-header mo-left header ext-header navstyle1">
-                {/* <div className="top-bar">
+                <div className="top-bar">
                     <div className="container">
                         <div className="row d-flex justify-content-between align-items-center">
                             <div className="dlab-topbar-left">
                                 <ul>
-                                    <li><Link to="/about">About Us</Link></li>
-                                    <li><Link to="/privacy-policy">Refund Policy</Link></li>
-                                    <li><Link to="/help-desk">Help Desk</Link></li>
+                                    <li>
+                                    <a href="#about" onClick={() => this.scrollToElement('about')}>
+                                    About Us
+                                    </a>
+                                    </li>
+                                    {/* <li><Link to="/privacy-policy">Refund Policy</Link></li>
+                                    <li><Link to="/help-desk">Help Desk</Link></li> */}
                                 </ul>
                             </div>
                             <div className="dlab-topbar-right">
-                                <Link to="/contact-1" className="site-button radius-no btnhover11">GET A QUOTE</Link>						
+                                {/* <Link to="mailto:info@panther-energy.com" className="site-button radius-no btnhover11">GET A QUOTE</Link>		 */}
+                                <a href={`mailto:info@panther-energy.com}`} className="site-button radius-no btnhover11">
+                                    GET A QUOTE
+                                </a>				
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
                 <div className="middle-bar bg-white">
                     <div className="container">
                         <div className="middle-area">

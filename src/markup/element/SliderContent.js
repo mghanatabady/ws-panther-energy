@@ -443,23 +443,33 @@ export const servicesContent3 = [
 export const servicesContent4 = [
     {
         image: require("../../images/our-services/pic1.jpg"),
-        description:"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true.",
-        serviceName:"Wind Turbines",
+        description:"Valves ,Actuators ,Strainers ,Level ,Pressure ,Temperature , Gas detection ,Pressure reducing regulators , Gas/Liquid Separators , Fuel Filtration and Flowmeters",
+        serviceName:"Valve & Actuation, Instrumentation Mechanical Equipment Supply and Maintenance services",
     },
     {
         image: require("../../images/our-services/pic2.jpg"),
-        description:"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true.",
-        serviceName:"Solar Panels",
+        description:"We are ready to serve you for all your electrical contracting works, from foundation grounding to environmental lighting, LV panel supply and assembly, HV transformer installation and power increase. Energy Saving Analysis and Measurements. Productivity Enhancing Projects",
+        serviceName:"Electrical Equipment Automation(E&I) Control System Supply and Maintenance service",
     },
     {
         image: require("../../images/our-services/pic3.jpg"),
-        description:"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true.",
-        serviceName:"Maintenance",
+        description:"Piping systems ,PH ORP DO TSS Conductivity & all process measurement , Control Systems, Filtration & RO treatment Skids",
+        serviceName:"Water, Wastewater Treatment Plant design, execution & Equipment Supply",
     },
     {
-        image: require("../../images/our-services/pic1.jpg"),
-        description:"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true.",
-        serviceName:"Wind Turbines",
+        image: require("../../images/our-services/pic4.jpg"),
+        description:"Panther Energy delivers new gas & steam turbine units, genuine gas & steam turbine parts and quality gas & steam turbine maintenance services to its esteemed clients. As power generation from renewables increases, conventional power plants are expected to show greater flexibility while the need for energy storage grows. Whether consideri",
+        serviceName:"Power",
+    },
+    {
+        image: require("../../images/our-services/pic5.jpg"),
+        description:"For several process industries including the Food and Beverage industry. As such, we provide high-quality valves for process control, accurate measurement solutions for liquid, solid and gas measurement, process solutions such as pumps and compressors to convey process fluids, electrical and instrumentation solutions to energize and monito",
+        serviceName:"Pharmaceutical, Food And Beverage",
+    },
+    {
+        image: require("../../images/our-services/pic6.jpg"),
+        description:"Oil & Gas production, transportation, and storage operations are subject to the highest and most complex process conditions and are subject to strict standards of performance, availability, and efficiency. The requirements for flow measurement in the oil and gas industry should be just as stringent! ",
+        serviceName:"Oil & Gas",
     },
 ]
 

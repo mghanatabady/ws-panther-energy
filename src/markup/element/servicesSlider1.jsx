@@ -46,12 +46,18 @@ class ServicesSlider1 extends Component {
                         <div className="item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
                             <div className="dlab-box service-media-bx">
                                 <div className="dlab-media dlab-img-effect zoom"> 
-                                    <Link to="/services-details"><img src={item.image} alt=""/></Link> 
+                                    {/* <Link to="/services-details"> */}
+                                      <img src={item.image} alt=""/>
+                                    {/* </Link>  */}
                                 </div>
                                 <div className="dlab-info text-center">
-                                    <h2 className="dlab-title"><Link to="/services-details">{item.serviceName}</Link></h2>
+                                    <h2 className="dlab-title">
+                                      {/* <Link to="/services-details"> */}
+                                        {item.serviceName}
+                                      {/* </Link> */}
+                                    </h2>
                                     <p>{item.description}</p>
-                                    <Link to="/services-details" className="site-button btnhover15">Read More</Link>
+                                    {/* <Link to="/services-details" className="site-button btnhover15">Read More</Link> */}
                                 </div>
                             </div>
                         </div>
