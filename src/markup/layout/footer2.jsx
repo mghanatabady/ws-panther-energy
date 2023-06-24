@@ -20,7 +20,7 @@ const Footer2 =()=> {
 	return (
 		<>
 			<footer className="site-footer style2">
-				{/* <div className="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+				<div className="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
@@ -30,7 +30,7 @@ const Footer2 =()=> {
 											<span className="icon-sm"><i className="ti-location-pin"></i></span> 
 											Company Address
 										</h5>
-										<p className="op7">Demo address #8901 Marmora Road Chi Minh City, Vietnam</p>
+										<p className="op7">Golan St., In Front of Cihan Bank</p>
 									</div>
 								</div>
 							</div>
@@ -41,12 +41,11 @@ const Footer2 =()=> {
 											<span className="icon-sm"><i className="ti-email"></i></span> 
 											E-mail
 										</h5>
-										<p className="m-b0 op7">info@example.com</p>
-										<p className="op7">company@example.com</p>
+										<p className="m-b0 op7">info@panther-energy.com</p>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
+							{/* <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 									<div className="icon-content">
 										<h5 className="dlab-tilte">
@@ -57,7 +56,7 @@ const Footer2 =()=> {
 										<p className="op7">Phone : +0 1234 5678 90</p>
 									</div>
 								</div>
-							</div>
+							</div> */}
 							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 									<div className="icon-content">
@@ -65,14 +64,14 @@ const Footer2 =()=> {
 											<span className="icon-sm"><i className="ti-alarm-clock"></i></span> 
 											Office Hours
 										</h5>
-										<p className="m-b0 op7">Mon To Sat - 08.00-18.00</p>
-										<p className="op7">Sunday - Close</p>
+										<p className="m-b0 op7">Mon To Sat - 09:00-17:00</p>
+										{/* <p className="op7">Sunday - Close</p> */}
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> */}
+				</div>
 				
 				{/* <div className="footer-top">
 					<div className="container-fluid">

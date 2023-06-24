@@ -7,6 +7,7 @@ import {homeSliderContent2} from '../element/SliderContent'
 import ScrollToTop from '../element/scrollToTop';
 import ServicesSlider1 from '../element/servicesSlider1';
 import {servicesContent4} from '../element/SliderContent'
+import PartnerSlider from '../element/partnerSlider';
 
 // import '../../css/skin/skin-2.css';
 
@@ -34,10 +35,10 @@ class Index2 extends Component {
                                         <img src={require("../../images/our-work/oilgas/pic1.jpg")} alt="" className="img-cover"/>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                                <div className="col-lg-4 bg-white wow fadeIn" id="about" data-wow-duration="2s" data-wow-delay="0.4s">
                                     <div className="service-box style2">
                                         <div>
-                                            <h3 className="title text-black" id="about">
+                                            <h3 className="title text-black">
                                             About
                                             </h3>
                                             <p>
@@ -117,7 +118,7 @@ class Index2 extends Component {
                     <div className="content-block">
                         <div className="section-full bg-gray content-inner about-carousel-ser">
                             <div className="container">
-                                <div className="section-head text-center">
+                                <div id="services" className="section-head text-center">
                                     <h2 className="title">Integrated Industrial Solutions & <br/><span className="text-primary">Services</span></h2>
                                     <p>Offering a broad range of industrial solutions, from Valve & Actuation to Electrical Equipment Automation and Water Treatment. Our expertise ensures high efficiency and performance across multiple sectors.</p>
                                 </div>
@@ -132,6 +133,97 @@ class Index2 extends Component {
                 </div> 
 
 
+                <div className="section-full bg-gray content-inner" id="products">
+                            <div className="container">
+                                <div className="section-head text-center">
+                                    <h2 className="title" > Products Categories</h2>
+                                    {/* <p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p> */}
+                                </div>
+                                <div className="section-content row">
+                                    <div className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+                                        <div className="icon-bx-wraper" data-name="01">
+                                            <div className="icon-lg">
+                                                <Link to="#" className="icon-cell"><i className="flaticon-robot-arm"></i></Link>
+                                            </div>
+                                            <div className="icon-content">
+                                                <h2 className="dlab-tilte">Mechanical Works</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <div className="icon-bx-wraper" data-name="02">
+                                            <div className="icon-lg">
+                                                <Link to="#" className="icon-cell"><i className="flaticon-factory-1"></i></Link>
+                                            </div>
+                                            <div className="icon-content">
+                                                <h2 className="dlab-tilte">Power & Energy</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+                                        <div className="icon-bx-wraper" data-name="03">
+                                            <div className="icon-lg">
+                                                <Link to="#" className="icon-cell"><i className="flaticon-fuel-station"></i></Link>
+                                            </div>
+                                            <div className="icon-content">
+                                                <h2 className="dlab-tilte">Petroleum Refinery</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.8s">
+                                        <div className="icon-bx-wraper" data-name="04">
+                                            <div className="icon-lg">
+                                                <Link to="#" className="icon-cell"><i className="flaticon-fuel-truck"></i></Link>
+                                            </div>
+                                            <div className="icon-content">
+                                                <h2 className="dlab-tilte">Oil & Gas Industry</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+                                        <div className="icon-bx-wraper" data-name="05">
+                                            <div className="icon-lg">
+                                                <Link to="#" className="icon-cell"><i className="flaticon-conveyor-1"></i></Link>
+                                            </div>
+                                            <div className="icon-content">
+                                                <h2 className="dlab-tilte">Automative Manufacturing</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+                                        <div className="icon-bx-wraper" data-name="06">
+                                            <div className="icon-lg">
+                                                <Link to="#" className="icon-cell"><i className="flaticon-engineer-1"></i></Link>
+                                            </div>
+                                            <div className="icon-content">
+                                                <h2 className="dlab-tilte">Chemical Research</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="section-full dlab-we-find bg-img-fix p-t20 p-b20 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                            <div className="container">
+                            <div className="section-head text-center">
+                                    <h2 className="title" id="partners"> Partners</h2>
+                                </div>
+                                <div className="section-content">
+                                    <PartnerSlider hideBorder/>
+                                </div>
+                            </div>
+                        </div>
+
+                        
 
 
 
