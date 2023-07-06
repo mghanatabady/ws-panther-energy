@@ -481,8 +481,8 @@ export const homeSliderContent2 = [
     },
     {
         image: require("../../images/main-slider/slide5.jpg"),
-        title:"OIL INDUSTRY",
-        description:""
+        title:"GAS INDUSTRY",
+        description:"Our equipment is mainly destined for L.P.G. and natural gas installations (domestic, commercial and industrial systems) with products ranging from L.P.G. storage tanks, valves and regulators, gas meters and flow meters, gas monitoring systems, gas detectors, vaporizers and S.N.G. mixers, pipes and fittings as well as numerous other accessories."
     }
 ]
 

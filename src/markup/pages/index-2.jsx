@@ -59,7 +59,7 @@ class Index2 extends Component {
                                 <div className="col-lg-4 bg-secondry text-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
                                     <div className="service-box style2">
                                         <div>
-                                            <h2 className="title"><span>Core Operations of </span> <br />PEP.</h2>
+                                            <h2 className="title"><span>Core Operations</span></h2>
                                             <p>We offer premium engineering and consultancy, handling installations and commissioning proficiently. We're a trusted supplier of diverse products and conduct precise inspections, tests, and calibrations. Our expertise extends to oil field services and operations and maintenance, promising clients superior performance and sustainability.</p>
                                             {/* <Link to="/services-2" className="site-button outline white outline-2 btnhover11">ABOUT US</Link> */}
                                         </div>
@@ -168,9 +168,8 @@ class Index2 extends Component {
                                     </div>
                                 </div>
                             </div>
-                            {/* 3 
-                                          FIRE PROTECTION EQUIPMENT : UL listed and FM approved Fire Solutions Valve, Pumps ,Fire Hydrants , Fire detection and Sprinkler systems , Bladder Tanks ,Control Systems
-                                          */}
+                            {/* 3 FIRE PROTECTION EQUIPMENT : UL listed and FM approved Fire Solutions Valve, Pumps ,Fire Hydrants , Fire detection and Sprinkler systems , Bladder Tanks ,Control Systems
+                            */}
                             <div className="col-md-6 col-lg-4 col-sm-12 service-box style3 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
                                 <div className="icon-bx-wraper" data-name="03">
                                     <div className="icon-lg">
