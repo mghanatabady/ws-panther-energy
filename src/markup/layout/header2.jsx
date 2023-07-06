@@ -145,10 +145,11 @@ class Header2 extends Component {
                                         <Link to="/"><img src={require("../../images/logo-2.png")} alt=""/></Link>
                                     </div>
                                     <ul className="nav navbar-nav">	
-                                    <li className=" has-mega-menu homedemo"> <Link to="#about" onClick={() => this.scrollToElement('about')}>About Us</Link></li>
-                                    <li className=" has-mega-menu homedemo"> <Link to="#services" onClick={() => this.scrollToElement('services')}>Services</Link></li>
-                                    <li className=" has-mega-menu homedemo"> <Link to="#products" onClick={() => this.scrollToElement('products')}>Products</Link></li>
-                                    <li className=" has-mega-menu homedemo"> <Link to="#partners" onClick={() => this.scrollToElement('partners')}>Partners</Link></li>
+                                    <li className=" has-mega-menu homedemo"> <Link to="/#about" onClick={() => this.scrollToElement('about')}>About Us</Link></li>
+                                    <li className=" has-mega-menu homedemo"> <Link to="/#services" onClick={() => this.scrollToElement('services')}>Services</Link></li>
+                                    <li className=" has-mega-menu homedemo"> <Link to="/#products" onClick={() => this.scrollToElement('products')}>Products</Link></li>
+                                    <li className=" has-mega-menu homedemo"> <Link to="/#partners" onClick={() => this.scrollToElement('partners')}>Partners</Link></li>
+                                    <li className=" has-mega-menu homedemo"> <Link to="/contact">Contact Us</Link></li>
 
                                         {/* <li className="active has-mega-menu homedemo"> <Link to="#">Home<i className="fa fa-chevron-down"></i></Link> */}
                                             {/* <ul className="mega-menu">

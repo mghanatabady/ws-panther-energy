@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
-import Header from '../layout/header'
+import Header from '../layout/header2'
 import Footer from '../layout/footer'
 
 const bg = require('../../images/background/bg5.jpg')
@@ -139,7 +139,7 @@ class Contact1 extends Component {
                         </div>
                     </div>
                 </div>                
-                <Footer/>                
+                {/* <Footer/>                 */}
             </>
         )
     }
