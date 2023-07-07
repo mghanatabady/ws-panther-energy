@@ -232,7 +232,7 @@ class Index2 extends Component {
                 <div className="section-full dlab-we-find bg-img-fix p-t20 p-b20 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
                     <div className="container">
                         <div className="section-head text-center">
-                            <h2 className="title" id="partners"> Partners</h2>
+                            <h2 className="title" id="partners"> BRANDS</h2>
                         </div>
                         <div className="section-content">
                             <PartnerSlider hideBorder />

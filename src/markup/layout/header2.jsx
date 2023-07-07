@@ -146,9 +146,11 @@ class Header2 extends Component {
                                     </div>
                                     <ul className="nav navbar-nav">	
                                     {/* <li className=" has-mega-menu homedemo"> <Link to="/#about" onClick={() => this.scrollToElement('about')}>About Us</Link></li> */}
-                                    <li className=" has-mega-menu homedemo"> <Link to="/">HOME</Link></li>
+                                    <li className=" has-mega-menu homedemo">
+                                        <Link to="/">HOME</Link>
+                                    </li>
                                     <li className=" has-mega-menu homedemo"> 
-                                        <Link to="/#services" onClick={() => this.scrollToElement('services')}>SERVICES</Link>
+                                        <Link to="/#services">SERVICES</Link>
                                     </li>
                                     <li className=" has-mega-menu homedemo"> 
                                         <Link to="/projects">PROJECTS</Link>
@@ -157,7 +159,7 @@ class Header2 extends Component {
                                         <Link to="/products">PRODUCTS</Link>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
-                                        <Link to="/#partners" onClick={() => this.scrollToElement('partners')}>PARTNERS</Link>
+                                        <Link to="/#partners">Brands</Link>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
                                         <Link to="/contact">CONTACT US</Link>
