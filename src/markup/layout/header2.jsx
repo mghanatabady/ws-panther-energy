@@ -54,29 +54,29 @@ class Header2 extends Component {
         return (
             <>
             <header className="site-header mo-left header ext-header navstyle1">
-                {/* <div className="top-bar">
+                <div className="top-bar">
                     <div className="container">
                         <div className="row d-flex justify-content-between align-items-center">
                             <div className="dlab-topbar-left">
-                                <ul> */}
-                                    {/* <li>
-                                    <a href="#about" onClick={() => this.scrollToElement('about')}>
+                                <ul>
+                                    <li>
+                                    <a href="/#about" onClick={() => this.scrollToElement('about')}>
                                     About Us
                                     </a>
-                                    </li> */}
+                                    </li>
                                     {/* <li><Link to="/privacy-policy">Refund Policy</Link></li>
                                     <li><Link to="/help-desk">Help Desk</Link></li> */}
-                                {/* </ul>
+                                </ul>
                             </div>
-                            <div className="dlab-topbar-right"> */}
+                            <div className="dlab-topbar-right">
                                 {/* <Link to="mailto:info@panther-energy.com" className="site-button radius-no btnhover11">GET A QUOTE</Link>		 */}
-                                {/* <a href={`mailto:info@panther-energy.com}`} className="site-button radius-no btnhover11">
+                                <a href={`mailto:info@panther-energy.com}`} className="site-button radius-no btnhover11">
                                     GET A QUOTE
                                 </a>				
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
                 <div className="middle-bar bg-white">
                     <div className="container">
                         <div className="middle-area">
@@ -145,11 +145,23 @@ class Header2 extends Component {
                                         <Link to="/"><img src={require("../../images/logo-2.png")} alt=""/></Link>
                                     </div>
                                     <ul className="nav navbar-nav">	
-                                    <li className=" has-mega-menu homedemo"> <Link to="/#about" onClick={() => this.scrollToElement('about')}>About Us</Link></li>
-                                    <li className=" has-mega-menu homedemo"> <Link to="/#services" onClick={() => this.scrollToElement('services')}>Services</Link></li>
-                                    <li className=" has-mega-menu homedemo"> <Link to="/#products" onClick={() => this.scrollToElement('products')}>Products</Link></li>
-                                    <li className=" has-mega-menu homedemo"> <Link to="/#partners" onClick={() => this.scrollToElement('partners')}>Partners</Link></li>
-                                    <li className=" has-mega-menu homedemo"> <Link to="/contact">Contact Us</Link></li>
+                                    {/* <li className=" has-mega-menu homedemo"> <Link to="/#about" onClick={() => this.scrollToElement('about')}>About Us</Link></li> */}
+                                    <li className=" has-mega-menu homedemo"> <Link to="/">HOME</Link></li>
+                                    <li className=" has-mega-menu homedemo"> 
+                                        <Link to="/#services" onClick={() => this.scrollToElement('services')}>SERVICES</Link>
+                                    </li>
+                                    <li className=" has-mega-menu homedemo"> 
+                                        <Link to="/projects">PROJECTS</Link>
+                                    </li>
+                                    <li className=" has-mega-menu homedemo">
+                                        <Link to="/products">PRODUCTS</Link>
+                                    </li>
+                                    <li className=" has-mega-menu homedemo">
+                                        <Link to="/#partners" onClick={() => this.scrollToElement('partners')}>PARTNERS</Link>
+                                    </li>
+                                    <li className=" has-mega-menu homedemo">
+                                        <Link to="/contact">CONTACT US</Link>
+                                    </li>
 
                                         {/* <li className="active has-mega-menu homedemo"> <Link to="#">Home<i className="fa fa-chevron-down"></i></Link> */}
                                             {/* <ul className="mega-menu">

@@ -116,9 +116,9 @@ class Index2 extends Component {
 
                 <div className="page-content bg-white">
                     <div className="content-block">
-                        <div className="section-full bg-gray content-inner about-carousel-ser">
+                        <div id="services" className="section-full bg-gray content-inner about-carousel-ser">
                             <div className="container">
-                                <div id="services" className="section-head text-center">
+                                <div  className="section-head text-center">
                                     <h2 className="title">Integrated Industrial Solutions & <br /><span className="text-primary">Services</span></h2>
                                     <p>Offering a broad range of industrial solutions, from Valve & Actuation to Electrical Equipment Automation and Water Treatment. Our expertise ensures high efficiency and performance across multiple sectors.</p>
                                 </div>
