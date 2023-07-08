@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Sticky from 'react-stickynode';
+import { HashLink as Linkh } from 'react-router-hash-link';
 
 
 
@@ -60,9 +61,7 @@ class Header2 extends Component {
                             <div className="dlab-topbar-left">
                                 <ul>
                                     <li>
-                                    <a href="/#about" onClick={() => this.scrollToElement('about')}>
-                                    About Us
-                                    </a>
+                                        <Linkh to="/#about">About Us</Linkh>
                                     </li>
                                     {/* <li><Link to="/privacy-policy">Refund Policy</Link></li>
                                     <li><Link to="/help-desk">Help Desk</Link></li> */}
@@ -150,16 +149,16 @@ class Header2 extends Component {
                                         <Link to="/">HOME</Link>
                                     </li>
                                     <li className=" has-mega-menu homedemo"> 
-                                        <Link to="/#services">SERVICES</Link>
+                                        <Linkh to="/#services">SERVICES</Linkh>
                                     </li>
-                                    <li className=" has-mega-menu homedemo"> 
+                                    {/* <li className=" has-mega-menu homedemo"> 
                                         <Link to="/projects">PROJECTS</Link>
-                                    </li>
+                                    </li> */}
                                     <li className=" has-mega-menu homedemo">
                                         <Link to="/products">PRODUCTS</Link>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
-                                        <Link to="/#partners">BRANDS</Link>
+                                        <Linkh to="/#partners">BRANDS</Linkh>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
                                         <Link to="/contact">CONTACT US</Link>
