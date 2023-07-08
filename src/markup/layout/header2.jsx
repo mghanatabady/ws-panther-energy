@@ -159,7 +159,7 @@ class Header2 extends Component {
                                         <Link to="/products">PRODUCTS</Link>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
-                                        <Link to="/#partners">Brands</Link>
+                                        <Link to="/#partners">BRANDS</Link>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
                                         <Link to="/contact">CONTACT US</Link>
