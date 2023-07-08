@@ -73,8 +73,10 @@ class Index2 extends Component {
                                 <div className="col-lg-4 bg-primary text-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
                                     <div className="service-box style2">
                                         <div>
-                                            <h2 className="title"><span>Petroleum  </span> <br />Refinery.</h2>
-                                            <p>PE Energy has a long-standing experience in the execution of complex projects involving automation and system integration in the Oil & Gas industry. At PE Energy, we are committed to helping our clients achieve optimal productivityeration.</p>
+                                            <h2 className="title"><span>Gas </span>Equipment</h2>
+                                            <p>
+                                                We specialize in the sales and service of Measurement, Control and Distribution products for the natural gas distribution and transmission markets.Our equipment is mainly destined for L.P.G. and natural gas installations (domestic, commercial and industrial systems) with products ranging from L.P.G. storage tanks, valves and regulators, gas meters and flow meters, gas monitoring systems, gas detectors, vaporizers and S.N.G. mixers, pipes and fittings as well as numerous other accessories.
+                                            </p>
                                             {/* <Link to="/services-2" className="site-button outline white outline-2 btnhover11">ABOUT US</Link> */}
                                         </div>
                                     </div>
@@ -87,8 +89,11 @@ class Index2 extends Component {
                                 <div className="col-lg-4 bg-primary text-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
                                     <div className="service-box style2">
                                         <div>
-                                            <h2 className="title"><span>Oil & Gas </span> <br />Industry.</h2>
-                                            <p>PE Energy has a long-standing experience in the execution of complex projects involving automation and system integration in the Oil & Gas industry. At PE Energy, we are committed to helping our clients achieve optimal productivity.</p>
+                                            <h2 className="title"><span>Supply</span> Chain</h2>
+                                            <p>
+                                                PE is supply chain provider of industrial instrumentation worldwide. Our company offers actuators, chart recorders, differential pressure units (DPU), flow computers & automation parts, flow meters, indicators, switches, transmitters and valves.We are an authorized distributor for globally recognized manufacturers of measurement, control & calibration equipment for pressure, temperature, flow, humidity & level instrumentation.
+                                                Utilities( Water, Waste Water, Natural Gas, Electric Generation, Power Plants and Pipelines)
+                                            </p>
                                             {/* <Link to="/services-2" className="site-button outline white outline-2 btnhover11">ABOUT US</Link> */}
                                         </div>
                                     </div>
@@ -119,8 +124,9 @@ class Index2 extends Component {
                         <div id="services" className="section-full bg-gray content-inner about-carousel-ser">
                             <div className="container">
                                 <div  className="section-head text-center">
-                                    <h2 className="title">Integrated Industrial Solutions & <br /><span className="text-primary">Services</span></h2>
-                                    <p>Offering a broad range of industrial solutions, from Valve & Actuation to Electrical Equipment Automation and Water Treatment. Our expertise ensures high efficiency and performance across multiple sectors.</p>
+                                    <h2 className="title">Integrated Industrial Solutions & <br /><span className="text-primary">Other Process Measurement Equipments</span></h2>
+                                    {/* <p>Offering a broad range of industrial solutions,
+                                         from Valve & Actuation to Electrical Equipment Automation and Water Treatment. Our expertise ensures high efficiency and performance across multiple sectors.</p> */}
                                 </div>
 
                                 <ServicesSlider1
