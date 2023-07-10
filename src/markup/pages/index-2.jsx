@@ -8,6 +8,7 @@ import ScrollToTop from '../element/scrollToTop';
 import ServicesSlider1 from '../element/servicesSlider1';
 import { servicesContent4 } from '../element/SliderContent'
 import PartnerSlider from '../element/partnerSlider';
+import BlogSlider1 from '../element/blogSlider1'
 
 // import '../../css/skin/skin-2.css';
 
@@ -197,7 +198,7 @@ class Index2 extends Component {
                                     </div>
                                     <div className="icon-content">
                                         <h2 className="dlab-tilte">Instrumentation, Measurement & Control </h2>
-                                        <p>Industrial Pressure PVC (PVCU/UPVC), ABS and CPVC Plastic Pipe Systems: including pipes, fittings and accessories. We supply metric mm ranges (PN6, PN10 & PN16), UK imperial inch ranges (Class C, D, E & T), USA imperial inch ranges (Schedule 40, 80 & 120) and clear PVC pipe ranges, in both metric and imperial.</p>
+                                        <p>We offer Products that include process control instrumentation and valve solutions to measure and control your critical pressure, temperature, level, flow and analytical process parameters as below A)Flame & Gas Detection Devices B)Gauges, Switches & Indicators C)Explosion Protection Devices D)Level Measurement Devices & Controls E)Flow Measurement Devices F)Level Sensors & Controls</p>
                                     </div>
                                 </div>
                             </div>
@@ -233,6 +234,88 @@ class Index2 extends Component {
                     </div>
                 </div>
 
+                <div className="section-full bg-gray content-inner" id="products">
+                    <div className="container">
+                        <div className="section-head text-center">
+                            <h2 className="title" > Products Categories</h2>
+                            {/* <p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p> */}
+                        </div>
+                                <div className="row">
+                                    <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
+                                        <div className="dlab-box service-box-2">
+                                            <div className="dlab-media radius-sm dlab-img-overlay1 dlab-img-effect rotate">
+                                                <Link to="/services-details"><img src={require("../../images/our-work/steelplant/pic1.jpg")} alt="" /></Link>
+                                            </div>
+                                            <div className="dlab-info">
+                                                <h4 className="title"><Link to="/services-details">Gas Equipment</Link></h4>
+                                                <p>We specialize in LPG and natural gas fittings, providing full range of regulators and changeover units and equipment items, mainly for L.P.G. and Natural Gas in Domestic, Commercial and Industrial Systems.</p>
+                                                {/* <Link to="/services-details" className="site-button btnhover14">Learn More</Link> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+                                        <div className="dlab-box service-box-2">
+                                            <div className="dlab-media radius-sm dlab-img-overlay1 dlab-img-effect rotate">
+                                                <Link to="/services-details"><img src={require("../../images/our-work/steelplant/pic2.jpg")} alt="" /></Link>
+                                            </div>
+                                            <div className="dlab-info">
+                                                <h4 className="title"><Link to="/services-details">Valves, Actuators</Link></h4>
+                                                <p>Our products and services include Manual & Pneumatic/Electrically Actuated Butterfly Valves, Actuated Ball Valves, Check Valves, Gate Valves, Plug Valves & Control Valves with materials such as Cast/Ductile Iron, Carbon Steel, Stainless Steel, Bronze & Aluminium Bronze, Plastic(PVC,CPVC,PVDF).</p>
+                                                {/* <Link to="/services-details" className="site-button btnhover14">Learn More</Link> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.9s">
+                                        <div className="dlab-box service-box-2">
+                                            <div className="dlab-media radius-sm dlab-img-overlay1 dlab-img-effect rotate">
+                                                <Link to="/services-details"><img src={require("../../images/our-work/steelplant/pic3.jpg")} alt="" /></Link>
+                                            </div>
+                                            <div className="dlab-info">
+                                                <h4 className="title"><Link to="/services-details">Fire Protection Equipment</Link></h4>
+                                                <p>UL listed and FM approved Fire Solutions Valve, Pumps ,Fire Hydrants , Fire detection and Sprinkler systems , Bladder Tanks ,Control Systems.</p>
+                                                {/* <Link to="/services-details" className="site-button btnhover14">Learn More</Link> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
+                                        <div className="dlab-box service-box-2">
+                                            <div className="dlab-media radius-sm dlab-img-overlay1 dlab-img-effect rotate">
+                                                <Link to="/services-details"><img src={require("../../images/our-work/steelplant/pic4.jpg")} alt="" /></Link>
+                                            </div>
+                                            <div className="dlab-info">
+                                                <h4 className="title"><Link to="/services-details">Instrumentation, Measurement & Control</Link></h4>
+                                                <p>We offer Products that include process control instrumentation and valve solutions to measure and control your critical pressure, temperature, level, flow and analytical process parameters as below A)Flame & Gas Detection Devices B)Gauges, Switches & Indicators C)Explosion Protection Devices D)Level Measurement Devices & Controls E)Flow Measurement Devices F)Level Sensors & Controls</p>
+                                                {/* <Link to="/services-details" className="site-button btnhover14">Learn More</Link> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+                                        <div className="dlab-box service-box-2">
+                                            <div className="dlab-media radius-sm dlab-img-overlasy1 dlab-img-effect rotate">
+                                                <Link to="/services-details"><img src={require("../../images/our-work/steelplant/pic5.jpg")} alt="" /></Link>
+                                            </div>
+                                            <div className="dlab-info">
+                                                <h4 className="title"><Link to="/services-details">Industrial Plastic Pipe Systems</Link></h4>
+                                                <p>Industrial Pressure PVC (PVCU/UPVC), ABS and CPVC Plastic Pipe Systems: including pipes, fittings and accessories. We supply metric mm ranges (PN6, PN10 & PN16), UK imperial inch ranges (Class C, D, E & T), USA imperial inch ranges (Schedule 40, 80 & 120) and clear PVC pipe ranges, in both metric and imperial.</p>
+                                                {/* <Link to="/services-details" className="site-button btnhover14">Learn More</Link> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.9s">
+                                        <div className="dlab-box service-box-2">
+                                            <div className="dlab-media radius-sm dlab-img-overlay1 dlab-img-effect rotate">
+                                                <Link to="/services-details"><img src={require("../../images/our-work/steelplant/pic6.jpg")} alt="" /></Link>
+                                            </div>
+                                            <div className="dlab-info">
+                                                <h4 className="title"><Link to="/services-details">Industrial Pump , Electric Motors & Fans</Link></h4>
+                                                <p>We offer a wide range of quality pumps for all industries. Pumps is the largest application group across our markets and we have a deep understanding of what it takes to make a difference.Electromotors available in single and 3 phase, AC and DC Motors, BFM Motors, Geared Motors, brake-motors, vibrator motors, and more. Also We supply industrial fans Case and Plate Mounted Axial,Centrifugal, Bifurcated, Roof Mounted, In-line Duct Fans with ATEX Certificated and in a variety of configurations.</p>
+                                                {/* <Link to="/services-details" className="site-button btnhover14">Learn More</Link> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
                 <div className="section-full dlab-we-find bg-img-fix p-t20 p-b20 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
