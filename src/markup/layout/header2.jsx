@@ -155,14 +155,14 @@ class Header2 extends Component {
                                         <Link to="/projects">PROJECTS</Link>
                                     </li> */}
                                     <li className=" has-mega-menu homedemo">
-                                        <Link to="/products">PRODUCTS</Link>
+                                        <Linkh to="/#products">PRODUCTS</Linkh>
                                     </li>
-                                    <li className=" has-mega-menu homedemo">
+                                    {/* <li className=" has-mega-menu homedemo">
                                         <Linkh to="/#partners">BRANDS</Linkh>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
                                         <Link to="/contact">CONTACT US</Link>
-                                    </li>
+                                    </li> */}
 
                                         {/* <li className="active has-mega-menu homedemo"> <Link to="#">Home<i className="fa fa-chevron-down"></i></Link> */}
                                             {/* <ul className="mega-menu">

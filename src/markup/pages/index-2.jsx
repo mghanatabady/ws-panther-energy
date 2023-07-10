@@ -223,7 +223,7 @@ class Index2 extends Component {
                         </div>
 
 
-                <div className="section-full dlab-we-find bg-img-fix p-t20 p-b20 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                {/* <div className="section-full dlab-we-find bg-img-fix p-t20 p-b20 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
                     <div className="container" id="partners">
                         <div className="section-head text-center">
                             <h2 className="title" > BRANDS</h2>
@@ -232,12 +232,7 @@ class Index2 extends Component {
                             <PartnerSlider hideBorder />
                         </div>
                     </div>
-                </div>
-
-
-
-
-
+                </div> */}
 
                 <Footer />
                 <ScrollToTop className="style1 radius" />
