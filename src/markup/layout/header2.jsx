@@ -161,6 +161,9 @@ class Header2 extends Component {
                                         <Linkh to="/#partners">BRANDS</Linkh>
                                     </li>
                                     <li className=" has-mega-menu homedemo">
+                                        <Linkh to="/#clients">CLEINTS</Linkh>
+                                    </li>
+                                    <li className=" has-mega-menu homedemo">
                                         <Link to="/contact">CONTACT US</Link>
                                     </li>
 

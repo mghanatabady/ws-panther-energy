@@ -9,6 +9,7 @@ import ServicesSlider1 from '../element/servicesSlider1';
 import { servicesContent4 } from '../element/SliderContent'
 import PartnerSlider from '../element/partnerSlider';
 import BlogSlider1 from '../element/blogSlider1'
+import ClientSlider from '../element/clientSlider';
 
 // import '../../css/skin/skin-2.css';
 
@@ -227,7 +228,17 @@ class Index2 extends Component {
                             <h2 className="title" > BRANDS</h2>
                         </div>
                         <div className="section-content">
-                            <PartnerSlider hideBorder />
+                            {/* <PartnerSlider hideBorder /> */}
+                        </div>
+                    </div>
+                </div>
+                <div className="section-full dlab-we-find bg-img-fix p-t20 p-b20 bg-white wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                    <div className="container" id="clients">
+                        <div className="section-head text-center">
+                            <h2 className="title" > CLIENTS</h2>
+                        </div>
+                        <div className="section-content">
+                            <ClientSlider hideBorder />
                         </div>
                     </div>
                 </div>
