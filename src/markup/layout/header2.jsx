@@ -89,12 +89,12 @@ class Header2 extends Component {
                                         <h4 className="title">info@panther-energy.com</h4>
                                         <span>Erbil,Iraq</span>
                                     </li>
-                                    {/* <li>
-                                        <i className="la la-phone"></i>
-                                        <h4 className="title">(+00)888.666.88</h4>
-                                        <span>Free Call</span>
-                                    </li>
                                     <li>
+                                        <i className="la la-phone"></i>
+                                        <h4 className="title">+964 750 1447018</h4>
+                                        <span>Call Center</span>
+                                    </li>
+                                    {/*<li>
                                         <i className="la la-clock-o"></i>
                                         <h4 className="title">08:00 AM - 06:00 PM</h4>
                                         <span>Monday - Friday</span>

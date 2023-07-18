@@ -45,18 +45,18 @@ const Footer2 =()=> {
 									</div>
 								</div>
 							</div>
-							{/* <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 									<div className="icon-content">
 										<h5 className="dlab-tilte">
 											<span className="icon-sm"><i className="ti-mobile"></i></span> 
 											Phone Numbers
 										</h5>
-										<p className="m-b0 op7">Mobile : +00 234 678 9012</p>
-										<p className="op7">Phone : +0 1234 5678 90</p>
+										{/* <p className="m-b0 op7">Mobile : +00 234 678 9012</p> */}
+										<p className="op7">Phone:  +964 750 1447018</p>
 									</div>
 								</div>
-							</div> */}
+							</div>
 							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 									<div className="icon-content">
