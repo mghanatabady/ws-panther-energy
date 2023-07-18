@@ -4,26 +4,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const content = [
-    {
-        logo: require('./../../images/client-logo/logo1.jpg'),
-    },
-    {
-        logo: require('./../../images/client-logo/logo2.jpg'),
-    },
-    {
-        logo: require('./../../images/client-logo/logo1.jpg'),
-    },
-    {
-        logo: require('./../../images/client-logo/logo3.jpg'),
-    },
-    {
-        logo: require('./../../images/client-logo/logo4.jpg'),
-    },
-    {
-        logo: require('./../../images/client-logo/logo3.jpg'),
-    },
-]
+const content = [];
+
+for (let i = 1; i <= 29; i++) {
+    const numStr = String(i).padStart(3, '0');
+    content.push({
+        logo: require(`./../../images/client-logo/${numStr}.jpg`),
+    });
+}
 
 
 class ClientSlider1 extends Component {
@@ -33,10 +21,10 @@ class ClientSlider1 extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            speed: 500,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            autoplay: false,
+            speed: 2000,
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            autoplay: true,
 			responsive: [
 				{
 				  breakpoint: 1200,
@@ -69,7 +57,17 @@ class ClientSlider1 extends Component {
                         <div className="item">
                             <div class={`ow-client-logo ${padding}`}>
                                 <div class={`client-logo ${Border}`}>
-                                    <Link to="#"><img src={item.logo} alt=""/></Link>
+                                    {/* <Link to="#"> */}
+                                        
+                                    
+                                    
+                                    
+                                        <img src={item.logo} alt=""/>
+                                    
+                                    
+                                    
+                                    
+                                    {/* </Link> */}
                                 </div>
                             </div>
                         </div>
