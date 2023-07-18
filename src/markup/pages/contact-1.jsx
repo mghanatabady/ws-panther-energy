@@ -26,10 +26,10 @@ class Contact1 extends Component {
                                                         <span className="icon-sm text-primary"><i className="ti-location-pin"></i></span> 
                                                         Company Address
                                                     </h5>
-                                                    <p>007 Dummy Ashoka Apartment, Gautam Marg, Rani Sati Nagar,Jaipur / India </p>
+                                                    <p>Golan St., In Front of Cihan Bank</p>
                                                     <h6 className="m-b15 font-weight-400"><i className="ti-alarm-clock"></i> Office Hours</h6>
-                                                    <p className="m-b0">Mon To Sat - 10.00 - 07.00</p>
-                                                    <p>Sunday - Close</p>
+                                                    <p className="m-b0">Mon To Sat - 09:00-17:00</p>
+                                                    {/* <p>Sunday - Close</p> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -40,9 +40,8 @@ class Contact1 extends Component {
                                                         <span className="icon-sm text-primary"><i className="ti-email"></i></span> 
                                                         E-mail
                                                     </h5>
-                                                    <p className="m-b0">info@example.com</p>
-                                                    <p className="m-b0">hr@example.com</p>
-                                                    <p className="m-b0">support@example.com</p>
+                                                    <p className="m-b0">info@panther-energy.com</p>
+                                                    <p className="m-b0">sales@panther-energy.com</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -51,19 +50,18 @@ class Contact1 extends Component {
                                                 <div className="icon-content">
                                                     <h5 className="dlab-tilte">
                                                         <span className="icon-sm text-primary"><i className="ti-mobile"></i></span> 
-                                                        Phone Numbers
+                                                        Phone Numbers:
                                                     </h5>
-                                                    <p className="m-b0">+91-12345-67890</p>
-                                                    <p className="m-b0">+91-12345-67890</p>
+                                                    <p className="m-b0">+964 750 1447018</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-8 col-md-12 m-b30">
+                                {/* <div className="col-lg-8 col-md-12 m-b30">
                                     <form className="inquiry-form wow box-shadow bg-white fadeInUp" data-wow-delay="0.2s">
-                                        <h3 className="title-box font-weight-300 m-t0 m-b10">Let's Convert Your Idea into Reality <span className="bg-primary"></span></h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                                        <h3 className="title-box font-weight-300 m-t0 m-b10">Get in Touch<span className="bg-primary"></span></h3>
+                                        <p>Have questions or feedback? Use this form to contact us and we'll respond promptly.</p>
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <div className="form-group">
@@ -134,7 +132,7 @@ class Contact1 extends Component {
                                             </div>
                                         </div>
                                     </form>	
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

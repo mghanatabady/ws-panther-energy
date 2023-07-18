@@ -43,10 +43,10 @@ class Index2 extends Component {
                                                 About
                                             </h3>
                                             <p>
-                                                <span style={{ fontWeight: 'bold' }}>Panther Energy Petroleum Company (PEP)</span>  specializes in technical solutions by providing specialty instrumentation, valves, Automation, safety, and other piping related products that We represent industry-leading companies.
+                                                <span style={{ fontWeight: 'bold' }}>Panther Energy Petroleum Company (PEP)</span>  specializes in technical solutions by providing specialty instrumentation, valves, Automation, safety, Pump and other piping related products engineering services for Oil & Natural Gas, Water and chemical industries.
                                             </p>
                                             <p>
-                                                <span style={{ fontWeight: 'bold' }}>PEP</span> has a team of professionals with diversified experience in services as well as in equipment supplies. These professionals may quickly understand the clients’ requirement and have good ability to respond in the same manner.
+                                                <span style={{ fontWeight: 'bold' }}>PEP</span> has a team of professionals with diversified experience in EPC services as well as in equipment supplies engineering and Inspection Services. These professionals may quickly understand the clients’ requirement and have good ability to respond in the same manner.
                                             </p>
                                             {/* <Link to="/services-2" className="site-button outline outline-2 btnhover11">ABOUT US</Link> */}
                                         </div>
