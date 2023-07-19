@@ -6,10 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const content = [];
 
-for (let i = 1; i <= 29; i++) {
+for (let i = 1; i <= 18; i++) {
     const numStr = String(i).padStart(3, '0');
     content.push({
-        logo: require(`./../../images/client-logo/${numStr}.jpg`),
+        logo: require(`./../../images/brand-logo/${numStr}.jpg`),
     });
 }
 
