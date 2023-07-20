@@ -443,7 +443,7 @@ export const servicesContent3 = [
 export const servicesContent4 = [
     {
         image: require("../../images/our-services/pic1.jpg"),
-        description:"Materials of construction available include PVC & CPVC Schedule 80, Polypropylene, Polyethylene, PVDF and FRP. Our pumps, valves, rotameters, sensors & control instrumentation, and filtration products are used extensively in the waste treatment and Energy industry. We carry all products for applications involving corrosive and clean chemicals, from a one-valve replacement to a fully functional piping and chemical storage and skid solution.Acid, abrasion, corrosion, and abrasion resistant pipes. Suitable for wastewater, chemical waste disposal, geothermal, crude oil, salt water, and chemical applications.",
+        description:"Materials of construction available include PVC & CPVC Schedule 80, Polypropylene, Polyethylene, PVDF and FRP. Our pumps, valves, rotameters, sensors & control instrumentation, and filtration products are used extensively in the waste treatment and Energy industry for applications involving corrosive and clean chemicals.",
         serviceName:"Chemical Piping Systems",
     },
     {
